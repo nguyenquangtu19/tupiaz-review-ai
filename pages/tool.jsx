@@ -1,0 +1,2 @@
+import Head from 'next/head';import Header from '../components/Header';import Footer from '../components/Footer';
+export default function Tool(){return(<><Head><title>Tool - TUPIAZ REVIEW AI</title></Head><Header/><main style={{maxWidth:1200,margin:'40px auto',padding:'0 20px'}}><h1 style={{color:'#1a1aff',fontWeight:800,fontSize:28,marginBottom:20}}>TOOL</h1><p>Danh sách công cụ AI đang cập nhật...</p></main><Footer/></>);}
