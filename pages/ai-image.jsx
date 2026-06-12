@@ -1,0 +1,2 @@
+import Head from 'next/head';import Header from '../components/Header';import Footer from '../components/Footer';
+export default function AIImage(){return(<><Head><title>AI Image - TUPIAZ REVIEW AI</title></Head><Header/><main style={{maxWidth:1200,margin:'40px auto',padding:'0 20px'}}><h1 style={{color:'#1a1aff',fontWeight:800,fontSize:28,marginBottom:20}}>AI IMAGE</h1><p>Đang cập nhật...</p></main><Footer/></>);}
