@@ -1,0 +1,2 @@
+import Head from 'next/head';import Header from '../components/Header';import Footer from '../components/Footer';import VideoGrid from '../components/VideoGrid';
+export default function VideoPage(){return(<><Head><title>Video - TUPIAZ REVIEW AI</title></Head><Header/><main style={{maxWidth:1200,margin:'0 auto',padding:'30px 20px'}}><h2 style={{color:'#1a1aff',fontWeight:800,fontSize:22,borderBottom:'3px solid #1a1aff',paddingBottom:8,marginBottom:24,display:'inline-block'}}>VIDEO</h2><VideoGrid maxResults={50}/></main><Footer/></>);}
